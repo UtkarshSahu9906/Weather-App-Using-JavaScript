@@ -17,17 +17,23 @@ body{
     padding: 40px 34px;
     text-align: center;
 }
-.search{
-    border: 0;
+.search input{
+    border:0;
     outline: 0;
     background: #ebfffc;
     color: #444;
-    padding: 10px 2px;
+    padding: 10px 24px;
     height: 60px;
     border-radius: 30px;
     flex: 1;
     margin-right: 16px;
-    font-size: 10px;
+    font-size: 18px;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .search button{
     border: 0;
